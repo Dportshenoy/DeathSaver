@@ -1,7 +1,7 @@
 import cv2
 
 cap = cv2.VideoCapture(0)
-car_cascade = cv2.CascadeClassifier('C:/Users/Dhanush/fake_desktop/traffic_accident_minimizer/cars.xml')
+car_cascade = cv2.CascadeClassifier('C:/Users/Dhanush/fake_desktop/traffic_accident_minimizer/DeathSaver/cars.xml')
 
 while True:
  # reads frames from a video
